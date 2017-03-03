@@ -26,7 +26,8 @@ USER JOURNEY (ABBREVIATED)
   - Location field should contain current entry, clear on focus
   - Location should be denoted within context
   - Image based primary denotation
-  - Textual data, highlight primary weather data
 --
 NOTATIONS
+- This master calls directly to the API. Because of free access limits, you may experience no response (401). If so, you can uncomment line 119 in assets/js/main.js
+  - There is a publicly accessible implementation at matsays.com/bi-forecast/ calling sample data (local XML) to illustrate the output.
 - I did not bother to do the autofill or drop-down, nor did I provide for a zip-based response, this is just exemplary
