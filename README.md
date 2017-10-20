@@ -25,6 +25,8 @@ Please upload your code to GitHub (https://github.com) - you can create a free a
   - Image based primary denotation
 
 ### NOTATIONS
+- Tried to limit design/development time to approx 2 hours.
 - This master calls directly to the API. Because of free access limits, you may experience no response (401). If so, you can uncomment line 119 in assets/js/main.js
   - There is a publicly accessible implementation at matsays.com/bi-forecast/ calling sample data (local XML) to illustrate the output.
 - I did not bother to do the autofill or drop-down, nor did I provide for a zip-based response, this is just exemplary
+- Did not include C/F switch
